@@ -23,7 +23,7 @@
 html{scroll-behavior:smooth;}
 body{
   margin:0;font-family:var(--sans);color:var(--ink);background:var(--cream);
-  line-height:1.9;-webkit-font-smoothing:antialiased;text-size-adjust:100%;
+  line-height:1.78;-webkit-font-smoothing:antialiased;text-size-adjust:100%;
 }
 img{max-width:100%;display:block;}
 a{color:inherit;text-decoration:none;}
@@ -32,7 +32,7 @@ p{margin:0;}
 
 .container{width:100%;max-width:1080px;margin:0 auto;padding:0 24px;}
 .container.narrow{max-width:760px;}
-.section{padding:60px 0;}
+.section{padding:42px 0;}
 .pc-br{display:none;}
 
 /* ---- buttons ---- */
@@ -48,11 +48,11 @@ p{margin:0;}
 .btn-lg{font-size:18px;padding:18px 42px;}
 
 /* ---- section heading ---- */
-.sec-head{margin-bottom:32px;}
+.sec-head{margin-bottom:22px;}
 .sec-head.center{text-align:center;}
 .sec-badge{
   display:inline-flex;align-items:center;justify-content:center;
-  width:54px;height:54px;border-radius:50%;font-size:26px;margin-bottom:14px;
+  width:48px;height:48px;border-radius:50%;font-size:23px;margin-bottom:8px;
 }
 .badge-green{background:var(--green-tint);}
 .badge-yellow{background:#FFF3CF;}
@@ -60,8 +60,8 @@ p{margin:0;}
 .badge-sky{background:#D8F2F8;}
 .badge-coral{background:#FFE0E0;}
 .sec-eyebrow{font-family:var(--maru);font-weight:700;color:var(--green);font-size:14px;margin:0 0 8px;}
-.sec-title{font-size:27px;color:var(--ink);}
-.sec-sub{margin:18px auto 0;max-width:620px;color:#5d564c;font-size:16px;}
+.sec-title{font-size:27px;color:var(--ink);line-height:1.32;}
+.sec-sub{margin:10px auto 0;max-width:620px;color:#5d564c;font-size:16px;}
 .sec-head.center .sec-sub{text-align:center;}
 
 /* =========================================================
@@ -100,18 +100,18 @@ p{margin:0;}
    共感
    ========================================================= */
 .empathy{background:#fff;}
-.bubble-list{list-style:none;padding:0;margin:0 0 28px;display:flex;flex-direction:column;gap:14px;}
-.bubble-list li{position:relative;background:var(--green-tint);border-radius:18px;padding:18px 22px;font-size:16px;}
+.bubble-list{list-style:none;padding:0;margin:0 0 20px;display:flex;flex-direction:column;gap:10px;}
+.bubble-list li{position:relative;background:var(--green-tint);border-radius:16px;padding:15px 20px;font-size:16px;}
 .bubble-list li::after{content:"";position:absolute;left:34px;bottom:-9px;width:18px;height:18px;background:var(--green-tint);transform:rotate(45deg);border-radius:3px;}
-.empathy-note{font-size:16px;color:#5d564c;margin-top:28px;text-align:center;}
+.empathy-note{font-size:16px;color:#5d564c;margin-top:16px;text-align:center;}
 
 /* =========================================================
    どんな場所
    ========================================================= */
 .about{background:var(--cream);}
-.about-lead{text-align:center;font-size:18px;margin:0 auto 36px;max-width:660px;}
+.about-lead{text-align:center;font-size:18px;margin:0 auto 24px;max-width:660px;}
 .cross-grid{display:grid;grid-template-columns:1fr;gap:16px;}
-.cross-item{border-radius:22px;padding:28px 24px;text-align:center;}
+.cross-item{border-radius:22px;padding:22px 20px;text-align:center;}
 .cross-item.c-yellow{background:#FFF3CF;}
 .cross-item.c-orange{background:#FFE6D6;}
 .cross-item.c-sky{background:#DCF3F8;}
@@ -124,7 +124,7 @@ p{margin:0;}
    ========================================================= */
 .can{background:#fff;}
 .can-grid{display:grid;grid-template-columns:1fr;gap:16px;}
-.can-card{border-radius:22px;padding:28px 26px;}
+.can-card{border-radius:22px;padding:24px 24px;}
 .can-card h3{font-size:21px;margin:6px 0 8px;color:var(--green-deep);}
 .can-card p{font-size:15px;color:#5d564c;}
 .can-emoji{font-size:40px;display:block;}
@@ -217,7 +217,7 @@ p{margin:0;}
 .day{background:#fff;}
 .timeline{list-style:none;margin:0;padding:0;position:relative;}
 .timeline::before{content:"";position:absolute;left:14px;top:8px;bottom:8px;width:3px;background:var(--green-tint);border-radius:2px;}
-.timeline li{position:relative;padding:0 0 26px 48px;}
+.timeline li{position:relative;padding:0 0 16px 48px;}
 .timeline li::before{content:"";position:absolute;left:7px;top:4px;width:18px;height:18px;border-radius:50%;background:var(--orange);border:3px solid #fff;box-shadow:0 0 0 3px var(--green-tint);}
 .tl-time{font-family:var(--maru);font-weight:700;color:var(--green);font-size:15px;}
 .tl-body h3{font-size:18px;margin:2px 0 4px;color:var(--green-deep);}
@@ -305,7 +305,7 @@ p{margin:0;}
    Tablet / PC
    ========================================================= */
 @media (min-width:768px){
-  .section{padding:92px 0;}
+  .section{padding:46px 0;}
   .pc-br{display:inline;}
   .sec-title{font-size:34px;}
   .nav{display:flex;gap:26px;font-family:var(--maru);font-weight:700;font-size:15px;}
