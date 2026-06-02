@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>こもれび｜家でも学校でもない、まちのもうひとつの居場所</title>
-<meta name="description" content="子どもが放課後ふらっと立ち寄って、ごはんも宿題もおしゃべりも。家でも学校でもない、まちのもうひとつの居場所。子ども食堂と連携したコミュニティ「こもれび」。" />
-<meta property="og:title" content="こもれび｜まちのもうひとつの居場所" />
-<meta property="og:description" content="ただいま、って言える場所。子ども食堂と連携した、誰でも居ていい第三の居場所。" />
+<title>はらっぱ｜まちのまんなかの、ゆっくりできるカフェ</title>
+<meta name="description" content="あたたかいコーヒーと、手づくりのごはんやおやつ。子ども連れでも、ひとりでも気がねなく過ごせる、地域のみんなのカフェ「はらっぱ」。" />
+<meta property="og:title" content="はらっぱ｜まちのまんなかの、ゆっくりできるカフェ" />
+<meta property="og:description" content="コーヒーと、ごはんと、ゆっくりできる時間。子ども連れでも気がねなく過ごせる、地域のカフェ。" />
 <meta property="og:type" content="website" />
 <meta property="og:image" content="assets/fv2.jpg" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Zen+Old+Mincho:wght@400;500;700&family=Zen+Maru+Gothic:wght@500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -20,190 +20,95 @@
 <header class="site-header" id="siteHeader">
   <div class="header-inner">
     <a href="#top" class="logo">
-      <span class="logo-mark" aria-hidden="true">🌳</span>
-      <span class="logo-text">こもれび</span>
+      <span class="logo-mark" aria-hidden="true">🌿</span>
+      <span class="logo-text">はらっぱ</span>
     </a>
     <nav class="nav">
-      <a href="#about">どんな場所？</a>
-      <a href="#day">1日の流れ</a>
+      <a href="#about">お店のこと</a>
       <a href="#menu">メニュー</a>
-      <a href="#table">子ども食堂の日</a>
-      <a href="#join">関わり方</a>
-      <a href="#faq">よくある質問</a>
+      <a href="#family">子連れ歓迎</a>
+      <a href="#table">みんなの食卓</a>
+      <a href="#access">アクセス</a>
     </nav>
-    <a href="#access" class="btn btn-cta header-cta">あそびに来る</a>
+    <a href="#access" class="btn btn-cta header-cta">お店を見る</a>
   </div>
 </header>
 
-<!-- ===== FV ===== -->
+<!-- ===== FV（全画面写真・前の版に戻す） ===== -->
 <section class="fv" id="top">
   <div class="fv-media">
-    <img src="assets/fv2.jpg" alt="カラフルで明るい、子どもの放課後の居場所になっているカフェこもれびの店内" />
+    <img src="assets/fv2.jpg" alt="緑とカラフルな椅子の、明るくくつろげるカフェの店内" />
     <span class="fv-tint" aria-hidden="true"></span>
   </div>
   <div class="fv-copy">
-    <span class="fv-badge">子ども食堂と連携した、まちの居場所</span>
-    <h1 class="fv-title">ただいま、って<br>言える場所。</h1>
+    <span class="fv-badge">まちのまんなかの、みんなのカフェ</span>
+    <h1 class="fv-title">子どもと、まちで、<br>ひとやすみ。</h1>
     <p class="fv-lead">
-      家でも学校でもない、まちのもうひとつの居場所。<br>
-      ごはんも、宿題も、おしゃべりも。<br>
-      こもれびへ、おかえり。
+      あたたかいコーヒーと、手づくりのごはんやおやつ。<br>
+      子ども連れでも、ひとりでも、気がねなく。<br>
+      まちの原っぱみたいに、誰でもくつろげるカフェです。
     </p>
     <div class="fv-actions">
-      <a href="#access" class="btn btn-cta">あそびに来てください</a>
-      <a href="#join" class="btn btn-ghost">活動に関わる</a>
+      <a href="#menu" class="btn btn-cta">メニューを見る</a>
+      <a href="#access" class="btn btn-ghost">お店の場所</a>
     </div>
   </div>
+  <ul class="fv-timeline">
+    <li><span class="ft-time">10:00</span><div class="ft-body"><h3>モーニング</h3><p>朝のコーヒーと焼きたてトースト。</p></div></li>
+    <li><span class="ft-time">12:00</span><div class="ft-body"><h3>ランチ</h3><p>地元野菜の日替わりプレート。</p></div></li>
+    <li><span class="ft-time">15:00</span><div class="ft-body"><h3>おやつ・放課後</h3><p>学校帰りの子どもたちでにぎやかに。</p></div></li>
+    <li><span class="ft-time">17:00</span><div class="ft-body"><h3>みんなの食卓</h3><p>第2・第4土曜は、みんなで食卓を。</p></div></li>
+    <li><span class="ft-time">18:00</span><div class="ft-body"><h3>夕暮れ</h3><p>仕事帰りの一杯や、ゆっくりの時間。</p></div></li>
+  </ul>
   <span class="fv-garland" aria-hidden="true"></span>
 </section>
 
-<!-- ===== 統計バー ===== -->
+<!-- ===== 特徴バー ===== -->
 <section class="stats">
   <div class="container">
     <ul class="stats-list">
-      <li><span class="stat-num">週<b>5</b>日</span><span class="stat-label">あいています</span></li>
-      <li><span class="stat-num">月<b>2</b>回</span><span class="stat-label">みんなの食卓</span></li>
-      <li><span class="stat-num">子ども<b>無料〜</b></span><span class="stat-label">気軽に立ち寄れる</span></li>
-      <li><span class="stat-num">0〜99<b>歳</b></span><span class="stat-label">誰でも居ていい</span></li>
+      <li><span class="stat-num"><b>自家焙煎</b></span><span class="stat-label">こだわりのコーヒー</span></li>
+      <li><span class="stat-num"><b>手づくり</b></span><span class="stat-label">ごはんとおやつ</span></li>
+      <li><span class="stat-num">子連れ<b>歓迎</b></span><span class="stat-label">キッズスペースあり</span></li>
+      <li><span class="stat-num">Wi-Fi<b>・電源</b></span><span class="stat-label">ひとりでも長居OK</span></li>
     </ul>
   </div>
 </section>
 
-<!-- ===== 共感 ===== -->
-<section class="section empathy">
-  <div class="container narrow">
-    <div class="sec-head center">
-      <span class="sec-badge badge-sky"><span aria-hidden="true">🌿</span></span>
-      <p class="sec-eyebrow">こんなこと、ありませんか</p>
-      <h2 class="sec-title">「行ってきます」のあと、<br>子どもはどこにいる？</h2>
-    </div>
-    <ul class="bubble-list">
-      <li>共働きで、学校が終わってからの時間にひとりにさせてしまう。</li>
-      <li>子ども連れだと、お店で泣いたりこぼしたりが気になって落ち着かない。</li>
-      <li>近所に知り合いが少なく、何かあったときに頼れる人がいない。</li>
-      <li>地域に関わってみたいけれど、入口がわからない。</li>
-    </ul>
-    <p class="empathy-note">
-      ひとりで過ごす放課後にも、気をつかう外出にも、ちょっとした寂しさや不安があります。<br>
-      足りないのは、誰でもふらっと立ち寄れて、「ただいま」と言える場所なのだと思います。
-    </p>
-  </div>
-</section>
-
-<!-- ===== どんな場所 ===== -->
+<!-- ===== お店のこと ===== -->
 <section class="section about" id="about">
   <div class="container">
     <div class="sec-head center">
-      <span class="sec-badge badge-green"><span aria-hidden="true">🌳</span></span>
-      <p class="sec-eyebrow">こもれびって、どんな場所？</p>
-      <h2 class="sec-title">家でも学校でもない、<br>まちのもうひとつの居場所。</h2>
+      <span class="sec-badge badge-green"><span aria-hidden="true">🌿</span></span>
+      <p class="sec-eyebrow">はらっぱのこと</p>
+      <h2 class="sec-title">気どらない、<br>まちのくつろぎ場所。</h2>
     </div>
     <p class="about-lead">
-      こもれびは、気軽に立ち寄れるカフェのようでいて、みんなで食卓を囲む家のような場所です。<br class="pc-br">
-      子ども食堂と連携し、子どもから大人まで、誰でも居ていい時間をつくっています。<br class="pc-br">
-      消費するための場所でも、支援を受けるための特別な場所でもありません。
+      おいしいコーヒーと、ほっとするごはん。<br class="pc-br">
+      ベビーカーでも、おじいちゃんおばあちゃんでも、ひとりでふらっとでも。<br class="pc-br">
+      原っぱに寝ころぶみたいに、肩の力を抜いて過ごせる場所をめざしています。
     </p>
     <div class="cross-grid">
-      <div class="cross-item c-yellow">
-        <span class="cross-emoji" aria-hidden="true">☕</span>
-        <p class="cross-label">カフェの気軽さ</p>
-        <p class="cross-desc">ふらっと立ち寄れて、好きなだけゆっくりできる。一杯のドリンクから居ていい。</p>
+      <div class="cross-item">
+        <figure class="ci-photo"><img src="assets/coffee.jpg" alt="ていねいに淹れるコーヒー" /></figure>
+        <div class="ci-body">
+          <p class="cross-label">こだわりの一杯</p>
+          <p class="cross-desc">自家焙煎の豆を一杯ずつていねいに。ノンカフェインやキッズドリンクも。</p>
+        </div>
       </div>
-      <div class="cross-item c-orange">
-        <span class="cross-emoji" aria-hidden="true">🍚</span>
-        <p class="cross-label">子ども食堂の食卓</p>
-        <p class="cross-desc">月に何度か、みんなであたたかいごはんを。子どもはワンコインで囲める食卓。</p>
+      <div class="cross-item">
+        <figure class="ci-photo"><img src="assets/table.jpg" alt="地元野菜の手づくりごはん" /></figure>
+        <div class="ci-body">
+          <p class="cross-label">手づくりごはん</p>
+          <p class="cross-desc">地元の野菜を使った日替わりごはんと、やさしい味のおやつ。</p>
+        </div>
       </div>
-      <div class="cross-item c-sky">
-        <span class="cross-emoji" aria-hidden="true">🏡</span>
-        <p class="cross-label">みんなの家</p>
-        <p class="cross-desc">「ただいま」「おかえり」が交わされる、顔の見える安心のある場所。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== ギャラリー（コラージュ） ===== -->
-<section class="section gallery">
-  <div class="container">
-    <div class="sec-head center">
-      <span class="sec-badge badge-coral"><span aria-hidden="true">📷</span></span>
-      <p class="sec-eyebrow">こもれびの、いろいろ</p>
-      <h2 class="sec-title">こんな場所で、待っています。</h2>
-    </div>
-    <div class="collage">
-      <figure class="c1"><img src="assets/fv2.jpg" alt="カラフルで明るいこもれびの店内" /></figure>
-      <figure class="c2"><img src="assets/table.jpg" alt="みんなで囲む食卓" /></figure>
-      <figure class="c3"><img src="assets/homework.jpg" alt="放課後の宿題コーナー" /></figure>
-      <figure class="c4"><img src="assets/kids.jpg" alt="絵本とおもちゃの子どもコーナー" /></figure>
-      <figure class="c5"><img src="assets/snack.jpg" alt="カラフルな手づくりおやつ" /></figure>
-      <figure class="c6"><img src="assets/coffee.jpg" alt="一杯ずつ淹れるコーヒー" /></figure>
-      <figure class="c7"><img src="assets/community.jpg" alt="地域の掲示板" /></figure>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 1日の流れ ===== -->
-<section class="section day" id="day">
-  <div class="container narrow">
-    <div class="sec-head center">
-      <span class="sec-badge badge-yellow"><span aria-hidden="true">🕒</span></span>
-      <p class="sec-eyebrow">こもれびの1日</p>
-      <h2 class="sec-title">こんなふうに、過ごせます。</h2>
-    </div>
-    <ul class="timeline">
-      <li>
-        <span class="tl-time">14:00</span>
-        <div class="tl-body"><h3>おひるすぎ・オープン</h3><p>近所の方がコーヒーを飲みに。赤ちゃん連れのママ・パパもゆっくり過ごします。</p></div>
-      </li>
-      <li>
-        <span class="tl-time">15:30</span>
-        <div class="tl-body"><h3>放課後・子どもたちが続々</h3><p>「ただいま」と入ってくる子どもたち。宿題をしたり、絵本を読んだり、思い思いに。</p></div>
-      </li>
-      <li>
-        <span class="tl-time">16:30</span>
-        <div class="tl-body"><h3>おやつタイム</h3><p>手づくりのおやつでひと息。大学生のお兄さん・お姉さんが宿題を見てくれます。</p></div>
-      </li>
-      <li>
-        <span class="tl-time">17:00</span>
-        <div class="tl-body"><h3>みんなの食卓（食堂の日）</h3><p>第2・第4土曜は、みんなで大きな食卓を囲みます。子どもも大人も一緒に。</p></div>
-      </li>
-      <li>
-        <span class="tl-time">19:00</span>
-        <div class="tl-body"><h3>「また明日」・クローズ</h3><p>「おかえり」と「また明日」が交わされて、こもれびの1日が終わります。</p></div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- ===== できること ===== -->
-<section class="section can" id="can">
-  <div class="container">
-    <div class="sec-head center">
-      <span class="sec-badge badge-coral"><span aria-hidden="true">✨</span></span>
-      <p class="sec-eyebrow">ここでできること</p>
-      <h2 class="sec-title">過ごし方は、自由です。</h2>
-    </div>
-    <div class="can-grid">
-      <div class="can-card k-yellow">
-        <span class="can-emoji" aria-hidden="true">📒</span>
-        <h3>宿題＆おやつ</h3>
-        <p>学校帰りに宿題を。わからないところは、大学生や地域の大人がそばで教えてくれます。終わったらおやつでひと息。</p>
-      </div>
-      <div class="can-card k-orange">
-        <span class="can-emoji" aria-hidden="true">🍲</span>
-        <h3>みんなの食卓</h3>
-        <p>子ども食堂の日は、みんなで食卓を囲みます。子どもはワンコイン、大人は少し多めに。ひとりでも大丈夫。</p>
-      </div>
-      <div class="can-card k-sky">
-        <span class="can-emoji" aria-hidden="true">📚</span>
-        <h3>遊び＆本</h3>
-        <p>絵本や木のおもちゃのコーナーで遊んだり、ただぼーっとしたり。何もしない時間も、ここでは大切にします。</p>
-      </div>
-      <div class="can-card k-coral">
-        <span class="can-emoji" aria-hidden="true">💬</span>
-        <h3>多世代のおしゃべり</h3>
-        <p>赤ちゃんからお年寄りまで。世代を超えた顔の見える関係が、自然と生まれていきます。</p>
+      <div class="cross-item">
+        <figure class="ci-photo"><img src="assets/kids.jpg" alt="絵本とおもちゃのキッズスペース" /></figure>
+        <div class="ci-body">
+          <p class="cross-label">気がねなく</p>
+          <p class="cross-desc">キッズスペースに絵本。泣いても、こぼしても、大丈夫な空気。</p>
+        </div>
       </div>
     </div>
   </div>
@@ -215,149 +120,134 @@
     <div class="sec-head center">
       <span class="sec-badge badge-orange"><span aria-hidden="true">🍩</span></span>
       <p class="sec-eyebrow">メニュー</p>
-      <h2 class="sec-title">あたたかいものを、手の届く値段で。</h2>
-      <p class="sec-sub">利益のためではなく、誰もが気兼ねなく口にできる値段にしています。子どもには、もっとやさしい価格で。</p>
+      <h2 class="sec-title">おいしくて、やさしい値段。</h2>
+      <p class="sec-sub">毎日通えるように、気どらない値段にしています。お子さまメニューもご用意しています。</p>
     </div>
-    <div class="menu-layout">
-      <div class="menu-cols">
-        <div class="menu-group">
-          <h3 class="menu-cat"><span aria-hidden="true">☕</span> ドリンク</h3>
-          <ul class="menu-list">
-            <li><span>こもれびブレンド</span><span class="price">¥400</span></li>
-            <li><span>ミルクココア</span><span class="price">¥350</span></li>
-            <li><span>季節のジュース</span><span class="price">¥350</span></li>
-            <li><span>こどもドリンク</span><span class="price">¥100</span></li>
-          </ul>
-        </div>
-        <div class="menu-group">
-          <h3 class="menu-cat"><span aria-hidden="true">🍚</span> ごはん</h3>
-          <ul class="menu-list">
-            <li><span>日替わりごはん</span><span class="price">¥500</span></li>
-            <li><span>おにぎりプレート</span><span class="price">¥400</span></li>
-            <li><span>こどもごはん</span><span class="price">¥100</span></li>
-          </ul>
-        </div>
-        <div class="menu-group">
-          <h3 class="menu-cat"><span aria-hidden="true">🍩</span> おやつ</h3>
-          <ul class="menu-list">
-            <li><span>手づくりおやつ</span><span class="price">¥200</span></li>
-            <li><span>スマイルクッキー</span><span class="price">¥150</span></li>
-            <li><span>季節のフルーツ</span><span class="price">¥200</span></li>
-          </ul>
-        </div>
-      </div>
-      <div class="menu-photos">
-        <figure><img src="assets/coffee.jpg" alt="一杯ずつ淹れるこもれびブレンド" /></figure>
-        <figure><img src="assets/snack.jpg" alt="カラフルな手づくりおやつ" /></figure>
-      </div>
+    <figure class="menu-hero organic">
+      <img id="menuHeroImg" src="assets/menu-oyatsu.jpg" alt="メニューの写真" />
+    </figure>
+    <div class="menu-tabs" role="tablist">
+      <button class="menu-tab is-on" data-cat="oyatsu" data-img="assets/menu-oyatsu.jpg">おやつ</button><span class="sep" aria-hidden="true">・</span>
+      <button class="menu-tab" data-cat="morning" data-img="assets/menu-morning.jpg">モーニング</button><span class="sep" aria-hidden="true">・</span>
+      <button class="menu-tab" data-cat="lunch" data-img="assets/menu-lunch.jpg">ランチ</button><span class="sep" aria-hidden="true">・</span>
+      <button class="menu-tab" data-cat="sweets" data-img="assets/menu-sweets.jpg">スイーツ</button><span class="sep" aria-hidden="true">・</span>
+      <button class="menu-tab" data-cat="drink" data-img="assets/menu-drink.jpg">ドリンク</button>
     </div>
-    <p class="menu-note">食物アレルギーのある方は、お声がけください。できるかぎり対応いたします。</p>
+    <div class="menu-panels">
+      <ul class="menu-list menu-panel is-on" data-cat="oyatsu">
+        <li><span>本日の焼き菓子</span><span class="price">¥350</span></li>
+        <li><span>スマイルクッキー</span><span class="price">¥200</span></li>
+        <li><span>焼きドーナツ</span><span class="price">¥250</span></li>
+      </ul>
+      <ul class="menu-list menu-panel" data-cat="morning">
+        <li><span>トーストセット</span><span class="price">¥600</span></li>
+        <li><span>たまごサンド</span><span class="price">¥550</span></li>
+        <li><span>フレンチトースト</span><span class="price">¥700</span></li>
+      </ul>
+      <ul class="menu-list menu-panel" data-cat="lunch">
+        <li><span>日替わりプレート</span><span class="price">¥900</span></li>
+        <li><span>キッシュとサラダ</span><span class="price">¥850</span></li>
+        <li><span>お子さまプレート</span><span class="price">¥500</span></li>
+      </ul>
+      <ul class="menu-list menu-panel" data-cat="sweets">
+        <li><span>季節のフルーツパフェ</span><span class="price">¥600</span></li>
+        <li><span>チーズケーキ</span><span class="price">¥450</span></li>
+        <li><span>なめらかプリン</span><span class="price">¥400</span></li>
+      </ul>
+      <ul class="menu-list menu-panel" data-cat="drink">
+        <li><span>ブレンドコーヒー</span><span class="price">¥450</span></li>
+        <li><span>カフェラテ</span><span class="price">¥500</span></li>
+        <li><span>ミルクココア</span><span class="price">¥400</span></li>
+        <li><span>キッズドリンク</span><span class="price">¥150</span></li>
+      </ul>
+    </div>
+    <p class="menu-note">食物アレルギーのある方は、お気軽にお声がけください。できるかぎり対応いたします。</p>
   </div>
 </section>
 
-<!-- ===== みんなの食卓・子ども食堂の日 ===== -->
-<section class="section table" id="table">
+<!-- ===== ギャラリー（コラージュ） ===== -->
+<section class="section gallery">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="sec-badge badge-coral"><span aria-hidden="true">📷</span></span>
+      <p class="sec-eyebrow">はらっぱの、いろいろ</p>
+      <h2 class="sec-title">こんなお店です。</h2>
+    </div>
+    <div class="collage">
+      <figure class="c1"><img src="assets/fv2.jpg" alt="緑とカラフルな店内" /></figure>
+      <figure class="c2"><img src="assets/table.jpg" alt="みんなで囲む食卓" /></figure>
+      <figure class="c3"><img src="assets/homework.jpg" alt="ゆっくり過ごせる席" /></figure>
+      <figure class="c4"><img src="assets/kids.jpg" alt="絵本とおもちゃのキッズスペース" /></figure>
+      <figure class="c5"><img src="assets/snack.jpg" alt="手づくりおやつ" /></figure>
+      <figure class="c6"><img src="assets/coffee.jpg" alt="ていねいに淹れるコーヒー" /></figure>
+      <figure class="c7"><img src="assets/community.jpg" alt="地域の掲示板" /></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 子連れ歓迎 ===== -->
+<section class="section family" id="family">
   <div class="container split">
     <figure class="split-photo">
-      <img src="assets/table.jpg" alt="みんなで囲む食卓に並ぶ、カラフルな器の家庭的なごはん" />
+      <img src="assets/kids.jpg" alt="絵本やおもちゃが並ぶ、はらっぱのキッズスペース" />
+    </figure>
+    <div class="split-text">
+      <div class="sec-head">
+        <span class="sec-badge badge-sky"><span aria-hidden="true">🧸</span></span>
+        <p class="sec-eyebrow">子連れ歓迎</p>
+        <h2 class="sec-title">小さな子と一緒でも、<br>ゆっくりできる。</h2>
+      </div>
+      <p class="split-lead">泣いてもいい、こぼしてもいい。子どもがいる時間そのものを歓迎する、ゆとりのあるお店です。ママ・パパもゆっくりコーヒーを。</p>
+      <ul class="dot-list">
+        <li>キッズスペースと絵本コーナー</li>
+        <li>ベビーカーのまま入れる広い通路</li>
+        <li>離乳食の持ち込み・あたため対応</li>
+        <li>おむつ替え・授乳スペース</li>
+        <li>お子さま用のいす・食器</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== みんなの食卓（子ども食堂連携＝付加価値） ===== -->
+<section class="section table" id="table">
+  <div class="container split reverse">
+    <figure class="split-photo">
+      <img src="assets/table.jpg" alt="みんなで囲む食卓に並ぶ、家庭的なごはん" />
     </figure>
     <div class="split-text">
       <div class="sec-head">
         <span class="sec-badge badge-orange"><span aria-hidden="true">🍚</span></span>
-        <p class="sec-eyebrow">みんなの食卓・子ども食堂の日</p>
-        <h2 class="sec-title">同じ食卓を囲むと、<br>顔見知りになれる。</h2>
+        <p class="sec-eyebrow">みんなの食卓の日</p>
+        <h2 class="sec-title">月に何度か、<br>みんなでごはん。</h2>
       </div>
-      <p class="split-lead">月に何度か、みんなで大きな食卓を囲みます。誰かと一緒に食べるごはんは、それだけで少しあたたかい。支える側も、支えられる側も、自然と混ざり合います。</p>
+      <p class="split-lead">はらっぱは地域の子ども食堂と連携しています。月に何度か、みんなで大きな食卓を囲む日を開いています。子どもはワンコイン、大人も気軽に参加できて、はじめましての人とも自然と仲良くなれます。</p>
       <dl class="info-dl">
         <div><dt>開催日</dt><dd>毎月 第2・第4土曜</dd></div>
         <div><dt>時間</dt><dd>17:00 – 19:00</dd></div>
-        <div><dt>参加費</dt><dd>子ども 無料〜¥100 ／ 大人 ¥500</dd></div>
-        <div><dt>予約</dt><dd>不要。当日ふらっと来てOK</dd></div>
+        <div><dt>参加費</dt><dd>子ども ¥100 ／ 大人 ¥500</dd></div>
+        <div><dt>予約</dt><dd>不要。当日ふらっとどうぞ</dd></div>
       </dl>
-      <p class="split-foot">ひとりで来ても、家族で来ても、もちろん大丈夫です。</p>
     </div>
   </div>
 </section>
 
-<!-- ===== 放課後の過ごし方 ===== -->
-<section class="section after">
-  <div class="container split reverse">
-    <figure class="split-photo">
-      <img src="assets/homework.jpg" alt="放課後の宿題コーナー。カラフルな文房具とおやつ" />
-    </figure>
-    <div class="split-text">
-      <div class="sec-head">
-        <span class="sec-badge badge-yellow"><span aria-hidden="true">📒</span></span>
-        <p class="sec-eyebrow">放課後の過ごし方</p>
-        <h2 class="sec-title">宿題のあとは、<br>おやつでひと息。</h2>
-      </div>
-      <p class="split-lead">学校が終わったら、まっすぐ帰らなくてもいい。宿題をして、おやつを食べて、ちょっとおしゃべりして。そばにはいつも、声をかけてくれる大人がいます。</p>
-      <ul class="dot-list">
-        <li>宿題を見てくれる大学生・地域の大人</li>
-        <li>手づくりおやつとあたたかい飲みもの</li>
-        <li>「おかえり」と名前を呼んでもらえる安心</li>
-        <li>ひとりになりたいときは、そっとしておく時間も</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 子どもの居場所 ===== -->
-<section class="section play">
-  <div class="container split">
-    <figure class="split-photo">
-      <img src="assets/kids.jpg" alt="絵本や木のおもちゃが並ぶ、こもれびの子どもコーナー" />
-    </figure>
-    <div class="split-text">
-      <div class="sec-head">
-        <span class="sec-badge badge-sky"><span aria-hidden="true">📚</span></span>
-        <p class="sec-eyebrow">子どもの居場所</p>
-        <h2 class="sec-title">絵本も、おもちゃも、<br>のんびりする時間も。</h2>
-      </div>
-      <p class="split-lead">絵本コーナーや木のおもちゃで遊んだり、お昼寝したり。小さなお子さん連れでも、靴をぬいで上がれるスペースがあるので安心です。</p>
-      <ul class="dot-list">
-        <li>絵本・木のおもちゃのコーナー</li>
-        <li>ベビーカーのまま入れる広い通路</li>
-        <li>おむつ替え・授乳スペース</li>
-        <li>離乳食の持ち込み・あたため対応</li>
-      </ul>
-    </div>
-  </div>
-</section>
+<!-- 「1日の流れ」はFVに統合 -->
 
 <!-- ===== 安心の取り組み ===== -->
 <section class="section safe">
   <div class="container">
     <div class="sec-head center">
-      <span class="sec-badge badge-green"><span aria-hidden="true">🛡️</span></span>
+      <span class="sec-badge badge-green"><span aria-hidden="true">🌟</span></span>
       <p class="sec-eyebrow">安心して過ごせるように</p>
-      <h2 class="sec-title">こもれびの、お約束。</h2>
+      <h2 class="sec-title">はらっぱの、こだわり。</h2>
     </div>
     <div class="safe-grid">
-      <div class="safe-item"><span aria-hidden="true">🍳</span><h3>食物アレルギー配慮</h3><p>使用食材を表示し、できるかぎり個別に対応します。気になることはお声がけください。</p></div>
-      <div class="safe-item"><span aria-hidden="true">🧼</span><h3>衛生管理の徹底</h3><p>調理・配膳の衛生管理を徹底。子どもが安心して口にできる環境を整えています。</p></div>
-      <div class="safe-item"><span aria-hidden="true">👀</span><h3>見守りの体制</h3><p>保育の経験者や地域のボランティアが常駐し、子どもたちをやさしく見守ります。</p></div>
-      <div class="safe-item"><span aria-hidden="true">🤲</span><h3>誰でもフラットに</h3><p>支える側も支えられる側も区別しません。誰もが気兼ねなく居られる場所です。</p></div>
+      <div class="safe-item"><span aria-hidden="true">🌾</span><h3>地元の食材</h3><p>地域の農家さんの野菜を中心に。何を食べているか分かる安心を大切にしています。</p></div>
+      <div class="safe-item"><span aria-hidden="true">🍳</span><h3>アレルギー配慮</h3><p>使用食材を表示し、できるかぎり個別に対応します。お気軽にご相談ください。</p></div>
+      <div class="safe-item"><span aria-hidden="true">🧼</span><h3>清潔な店内</h3><p>小さなお子さまも安心して過ごせるよう、衛生管理を徹底しています。</p></div>
+      <div class="safe-item"><span aria-hidden="true">🤝</span><h3>地域とともに</h3><p>子ども食堂との連携など、まちのつながりを大切にした運営をしています。</p></div>
     </div>
-  </div>
-</section>
-
-<!-- ===== 関わり方 ===== -->
-<section class="section join" id="join">
-  <div class="container">
-    <div class="sec-head center">
-      <span class="sec-badge badge-coral"><span aria-hidden="true">🤝</span></span>
-      <p class="sec-eyebrow">関わり方は、いろいろ</p>
-      <h2 class="sec-title">できる人が、できる分だけ。</h2>
-      <p class="sec-sub">大きな決意はいりません。まずは、ごはんを食べに来ることから。気が向いたら、もう一歩を選べます。</p>
-    </div>
-    <div class="join-grid">
-      <div class="join-item"><span class="join-emoji" aria-hidden="true">🍴</span><h3>食べに来る</h3><p>ごはんを食べる。それだけで、もう仲間です。</p></div>
-      <div class="join-item"><span class="join-emoji" aria-hidden="true">🙌</span><h3>手伝う</h3><p>食堂の日の準備や片づけを、少しだけ。</p></div>
-      <div class="join-item"><span class="join-emoji" aria-hidden="true">🥕</span><h3>食材を届ける</h3><p>お米や野菜のおすそ分けも、ありがたく。</p></div>
-      <div class="join-item"><span class="join-emoji" aria-hidden="true">💛</span><h3>寄付する</h3><p>いただいた寄付は食材費と運営にあてます。</p></div>
-    </div>
-    <p class="join-note">寄付や食材は、子どもたちの一食と、この場所を続けるために大切に使わせていただきます。使い道は毎月この場所と掲示板でご報告します。</p>
   </div>
 </section>
 
@@ -365,25 +255,25 @@
 <section class="section voices">
   <div class="container">
     <div class="sec-head center">
-      <span class="sec-badge badge-yellow"><span aria-hidden="true">💬</span></span>
-      <p class="sec-eyebrow">こもれびに集う人たち</p>
-      <h2 class="sec-title">こんな声が、届いています。</h2>
+      <span class="sec-badge badge-coral"><span aria-hidden="true">💬</span></span>
+      <p class="sec-eyebrow">お客さまの声</p>
+      <h2 class="sec-title">こんな声を、いただいています。</h2>
     </div>
     <div class="voices-grid">
       <blockquote class="voice-card">
-        <p>「ただいま」って言いながら入ってくる息子を見て、ここが本当の居場所になっているんだなと感じました。</p>
-        <footer>小学3年生の保護者</footer>
+        <p>子連れで入れるカフェが少ないなか、ここは本当にありがたい。子どもが遊んでいる間に、久しぶりにゆっくりコーヒーを飲めました。</p>
+        <footer>2児のママ</footer>
       </blockquote>
       <blockquote class="voice-card">
-        <p>ひとり暮らしで話す相手がいなかったけれど、食堂の日に行くと顔見知りができて、毎回の楽しみになっています。</p>
-        <footer>近所にお住まいの方</footer>
+        <p>コーヒーがおいしくて、Wi-Fiと電源もあるので仕事にも。いろんな世代がいて、居心地のいい空気が好きです。</p>
+        <footer>近所で働く方</footer>
       </blockquote>
       <blockquote class="voice-card">
-        <p>宿題を教えるうちに子どもたちと仲良くなって。誰かの放課後に関われることが、自分の支えにもなっています。</p>
-        <footer>ボランティアの大学生</footer>
+        <p>食堂の日に行ったら、知らない人とも自然と話せて。ひとり暮らしなので、毎回の楽しみになっています。</p>
+        <footer>常連のお客さま</footer>
       </blockquote>
     </div>
-    <p class="voices-note">※ 上記はデモ用のサンプルです。実際の制作では、利用者の方の生の声に差し替えます。</p>
+    <p class="voices-note">※ 上記はデモ用のサンプルです。実際の制作では、お客さまの生の声に差し替えます。</p>
   </div>
 </section>
 
@@ -396,50 +286,12 @@
       <h2 class="sec-title">はじめての方へ。</h2>
     </div>
     <ul class="faq-list">
-      <li><p class="q">はじめてでも、入りやすいですか？</p><p class="a">もちろんです。ドリンク一杯からゆっくりしていただけます。スタッフから声をかけますので、気負わずお越しください。</p></li>
-      <li><p class="q">子どもだけで行かせても大丈夫ですか？</p><p class="a">大丈夫です。地域の大人やボランティアが見守ります。心配なことは事前にお話しいただければ対応します。</p></li>
-      <li><p class="q">子連れでない大人も利用できますか？</p><p class="a">どなたでも歓迎します。赤ちゃんからお年寄りまで、誰もが居ていい場所です。</p></li>
-      <li><p class="q">食物アレルギーに対応していますか？</p><p class="a">使用食材を表示し、できるかぎり個別に対応します。来店時にお声がけください。</p></li>
-      <li><p class="q">子ども食堂の日は予約が必要ですか？</p><p class="a">予約は不要です。当日ふらっと来ていただいて大丈夫です。</p></li>
-      <li><p class="q">支援を受けているように見られませんか？</p><p class="a">こもれびは支える側も支えられる側も区別しません。みんなが混ざり合う、ふつうの居場所です。</p></li>
+      <li><p class="q">子ども連れでも大丈夫ですか？</p><p class="a">大歓迎です。キッズスペースや絵本、お子さま用のいす・食器をご用意しています。ベビーカーのまま入れます。</p></li>
+      <li><p class="q">ひとりでも入りやすいですか？</p><p class="a">もちろんです。Wi-Fiと電源もあるので、読書やお仕事にゆっくりお使いいただけます。</p></li>
+      <li><p class="q">予約はできますか？</p><p class="a">通常営業は予約不要です。みんなの食卓の日も、当日そのままお越しいただけます。</p></li>
+      <li><p class="q">食物アレルギーに対応していますか？</p><p class="a">使用食材を表示し、できるかぎり個別に対応します。ご来店時にお声がけください。</p></li>
+      <li><p class="q">テイクアウトはできますか？</p><p class="a">ドリンクと焼き菓子はテイクアウトできます。お散歩のおともにどうぞ。</p></li>
     </ul>
-  </div>
-</section>
-
-<!-- ===== お知らせ ===== -->
-<section class="section news">
-  <div class="container split">
-    <figure class="split-photo">
-      <img src="assets/community.jpg" alt="地域のイベントや子ども食堂のお知らせが貼られた掲示板" />
-    </figure>
-    <div class="split-text">
-      <div class="sec-head">
-        <span class="sec-badge badge-coral"><span aria-hidden="true">📌</span></span>
-        <p class="sec-eyebrow">お知らせ・掲示板</p>
-        <h2 class="sec-title">まちのいまが、<br>集まる場所。</h2>
-      </div>
-      <ul class="news-list">
-        <li><span class="news-date">毎月第2・第4土</span>みんなの食卓（子ども食堂の日）を開催しています</li>
-        <li><span class="news-date">日曜不定期</span>地域の方による読み聞かせ・季節のワークショップ</li>
-        <li><span class="news-date">随時</span>お米・野菜・絵本のおすそ分けを受け付けています</li>
-      </ul>
-      <p class="split-foot">店内の掲示板では、地域のイベントやお願いごともご紹介しています。</p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 想い ===== -->
-<section class="section voice">
-  <div class="container narrow">
-    <div class="sec-head center">
-      <span class="sec-badge badge-green"><span aria-hidden="true">🗣️</span></span>
-      <p class="sec-eyebrow">わたしたちの想い</p>
-      <h2 class="sec-title">この場所を、はじめた理由。</h2>
-    </div>
-    <blockquote class="voice-quote">
-      <p>ここには、店主の言葉や、地域の方の生の声が入ります。お店のコンセプトや活動内容の資料をいただいたら、その想いと現場の言葉でこの場所を上書きします。借り物ではない、本当の声でいちばん人が動くからです。</p>
-    </blockquote>
-    <p class="voice-placeholder">※ 本セクションは提供素材を反映するためのプレースホルダです。</p>
   </div>
 </section>
 
@@ -447,17 +299,17 @@
 <section class="section access" id="access">
   <div class="container">
     <div class="access-cta">
-      <h2 class="access-title">まずは、<br>ごはんを食べに。</h2>
-      <p class="access-lead">難しいことは何もいりません。あなたがふらっと立ち寄ることが、誰かの「ひとりじゃない」につながります。</p>
+      <h2 class="access-title">コーヒー、<br>飲みに来てください。</h2>
+      <p class="access-lead">気どらなくて大丈夫。お散歩のついでに、お買い物の帰りに、ふらっと立ち寄ってください。</p>
       <a href="#top" class="btn btn-cta btn-lg">お店の場所を見る</a>
     </div>
     <div class="access-info">
       <dl>
-        <div><dt>あいている時間</dt><dd>14:00 – 19:00<br><span class="muted">子ども食堂の日　毎月第2・第4土曜 17:00 –</span></dd></div>
-        <div><dt>おやすみ</dt><dd>日曜・月曜</dd></div>
+        <div><dt>営業時間</dt><dd>10:00 – 19:00<br><span class="muted">みんなの食卓の日　毎月第2・第4土曜 17:00 –</span></dd></div>
+        <div><dt>定休日</dt><dd>水曜日</dd></div>
         <div><dt>場所</dt><dd>〇〇県〇〇市〇〇町 1-2-3<br><span class="muted">最寄り駅から徒歩5分／駐車場あり</span></dd></div>
-        <div><dt>れんらく先</dt><dd>000-000-0000</dd></div>
-        <div><dt>SNS</dt><dd>Instagram ／ LINE で日々の様子を発信中</dd></div>
+        <div><dt>お問い合わせ</dt><dd>000-000-0000</dd></div>
+        <div><dt>SNS</dt><dd>Instagram で日々のメニューを発信中</dd></div>
       </dl>
     </div>
   </div>
@@ -466,15 +318,13 @@
 <!-- ===== Footer ===== -->
 <footer class="site-footer">
   <div class="container">
-    <p class="footer-logo"><span aria-hidden="true">🌳</span> こもれび</p>
-    <p class="footer-tagline">家でも学校でもない、まちのもうひとつの居場所。</p>
+    <p class="footer-logo"><span aria-hidden="true">🌿</span> はらっぱ</p>
+    <p class="footer-tagline">まちのまんなかの、ゆっくりできるカフェ。</p>
     <nav class="footer-nav">
-      <a href="#about">どんな場所？</a>
-      <a href="#day">1日の流れ</a>
+      <a href="#about">お店のこと</a>
       <a href="#menu">メニュー</a>
-      <a href="#table">子ども食堂の日</a>
-      <a href="#join">関わり方</a>
-      <a href="#faq">よくある質問</a>
+      <a href="#family">子連れ歓迎</a>
+      <a href="#table">みんなの食卓</a>
       <a href="#access">アクセス</a>
     </nav>
     <p class="footer-note">このページは、LP制作のポートフォリオとして制作した架空ブランドのデモです。掲載の店名・メニュー・情報は実在しません。</p>
@@ -487,6 +337,20 @@
     if (window.scrollY > 40) header.classList.add('scrolled');
     else header.classList.remove('scrolled');
   }, { passive: true });
+
+  // メニューのカテゴリタブ切り替え（パネル＋上の写真）
+  var tabs = document.querySelectorAll('.menu-tab');
+  var panels = document.querySelectorAll('.menu-panel');
+  var heroImg = document.getElementById('menuHeroImg');
+  tabs.forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      var cat = tab.getAttribute('data-cat');
+      tabs.forEach(function (t) { t.classList.toggle('is-on', t === tab); });
+      panels.forEach(function (p) { p.classList.toggle('is-on', p.getAttribute('data-cat') === cat); });
+      var img = tab.getAttribute('data-img');
+      if (heroImg && img) heroImg.src = img;
+    });
+  });
 </script>
 </body>
 </html>
